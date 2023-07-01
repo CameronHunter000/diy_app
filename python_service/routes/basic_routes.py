@@ -13,3 +13,4 @@ def about():
 @_basic_routes.route('/user/<username>')
 def user_profile(username):
     return f'User Profile: {username}'
+
