@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer_key" {
+  key_name   = "deployer_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDLZ/ioTillxNezwj0pWNnUhJG57Vay1xm361bfczzdp93Kin/dcAuz4WCafXnU2FRx4Zhd3onuMbtoDUcdntuVX0VrCHYPSNG5QRq11/VZxOm3+eCzzDiwa93kKWpmzpEXv4+IHJJhN/bNP2ikuwm6hk0GnUWMaO4XNL3ooW1Ar9zjRpciv2TnijOMviKz0SDeXdsqtBU2L5y/cEkKZlPlirZI8JaX1e9fUNSKjEupVPN1Ns13H88OLx8YmrL4jjVccgIDqOx6nwygtCZMCxC12kLxKvSfBF/Cy1P0GT2N39vh/xFVMYchegVfgzNdoVi2TNC1rzCI2a776tX4oFPb cameron.burnshunter@sky.uk"
+}
